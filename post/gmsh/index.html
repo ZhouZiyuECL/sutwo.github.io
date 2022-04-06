@@ -5,14 +5,14 @@
     
 <meta charset="utf-8" >
 
-<title>GMSH | Gridea</title>
-<meta name="description" content="基于SU2进行流体模拟计算的网站">
+<title>GMSH-构建网格 | su2是Ansys的爷爷</title>
+<meta name="description" content="基于SU2进行流体模拟计算的教程网站">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://jiashuo-guo.github.io/favicon.ico?v=1649249333733">
+<link rel="shortcut icon" href="https://jiashuo-guo.github.io/favicon.ico?v=1649249674595">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://jiashuo-guo.github.io/styles/main.css">
 
@@ -30,10 +30,10 @@
   <div class="site-header">
     <div class="left">
       <a href="https://jiashuo-guo.github.io">
-        <img class="avatar" src="https://jiashuo-guo.github.io/images/avatar.png?v=1649249333733" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://jiashuo-guo.github.io/images/avatar.png?v=1649249674595" alt="" width="32px" height="32px">
       </a>
       <a href="https://jiashuo-guo.github.io">
-        <h1 class="site-title">Gridea</h1>
+        <h1 class="site-title">su2是Ansys的爷爷</h1>
       </a>
     </div>
     <div class="right">
@@ -80,13 +80,30 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">GMSH</h2>
+          <h2 class="post-title">GMSH-构建网格</h2>
           <div class="post-info post-detail-info">
             <span><i class="icon-calendar-outline"></i> 2022-04-06</span>
             
           </div>
           <div class="post-content">
-            <p>gmsh教程</p>
+            <p>GMSH是一个网格器，本教程包括一般用法、几何体创建和网格创建。<br>
+1.使用 :<br>
+Gmsh是围绕四个模块建立的：几何、网格、求解器和后处理。要生成网格，一般来说使用前两个模块就足够了，其中Geometry用于创建1D-2D或3D的几何图形，Mesh用于创建网格。</p>
+<p>此外，所有的行动都以代码形式写在文件中，所以你也可以操作文件来实现行动或检查以前的行动。<br>
+网格创建完成后，在文件栏中找到 &quot;导出&quot;，将网格以所需形式导出，你需要在文件中添加自己的后缀（如果你使用SU2，你需要将网格设置为.su2格式）。</p>
+<p>然后可以在配置文件中调用该网格，设置相关参数，并使用SU2进行计算。<br>
+2.创建几何图形。<br>
+我们可以在添加栏中添加我们想要设置的元素（例如，圆圈）。</p>
+<p>然后我们可以在网格栏中找到转折点，接着是曲线的定义。在这一步，我们可以调整所取的点的数量，这将部分决定最终网格的精度。</p>
+<p>还有许多其他与构建几何体有关的特殊功能，例如要从二维转换到三维，你可以使用变换中的旋转选项来构建三维几何体。<br>
+变形中的对称性也很有用，因为它简化了工作量，所以记住在你的图形中要注重对称性。</p>
+<p>PS：如果你失去了创建图表的位置或正确的视图角度，记得在主屏幕上双击，然后点击重置视图，就可以恢复到原来的查看状态。<br>
+如果你犯了一个错误，在编辑脚本上方的模块部分，你可以用删除最后一个脚本的命令来删除它。<br>
+3.创建网格 :<br>
+接下来，我们再去添加几何体，找到曲面，用它来定义一个封闭的面，最后用Mesh中的2D选项生成网格。</p>
+<p>要改变网格的形状（局部或全局），你也可以选择使用Mesh-define-recombine将网格从一个曲面重塑为一个矩形。</p>
+<p>一旦你的网格文件完成，你仍然可以通过在主界面上双击并点击 &quot;所有网格选项 &quot;来修改设置，你可以通过元素大小来调整网格的精度。</p>
+<p>对于输出，如上所述，你需要考虑输出格式和添加后缀。</p>
 
           </div>
         </div>
@@ -97,7 +114,7 @@
       
 
       <div class="site-footer">
-  <div class="slogan">基于SU2进行流体模拟计算的网站</div>
+  <div class="slogan">基于SU2进行流体模拟计算的教程网站</div>
   <div class="social-container">
     
       
