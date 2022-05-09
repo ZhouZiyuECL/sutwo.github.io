@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体计算</title>
-    <updated>2022-05-09T20:01:52.827Z</updated>
+    <updated>2022-05-09T20:04:27.543Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/</id>
         <link href="https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/">
         </link>
-        <updated>2022-05-09T14:00:33.000Z</updated>
+        <updated>2022-05-09T08:00:33.000Z</updated>
         <content type="html"><![CDATA[<p>配置文件包含了模拟的最重要的参数。编写配置文件的质量对结果有至关重要的影响。</p>
 <p>SU2官方网站提供了配置表的模板：https://github.com/su2code/SU2/blob/master/config_template.cfg</p>
 <p>需要注意的重要参数 :</p>
@@ -322,7 +322,7 @@ SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
         <id>https://jiashuo-guo.github.io/post/gmsh/</id>
         <link href="https://jiashuo-guo.github.io/post/gmsh/">
         </link>
-        <updated>2022-04-06T00:45:15.000Z</updated>
+        <updated>2022-04-05T18:45:15.000Z</updated>
         <content type="html"><![CDATA[<p>GMSH是一个网格器，本教程包括一般用法、几何体创建和网格创建。<br>
 1.使用 :<br>
 Gmsh是围绕四个模块建立的：几何、网格、求解器和后处理。要生成网格，一般来说使用前两个模块就足够了，其中Geometry用于创建1D-2D或3D的几何图形，Mesh用于创建网格。</p>
