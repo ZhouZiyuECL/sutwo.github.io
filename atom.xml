@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体计算</title>
-    <updated>2022-05-09T19:59:03.611Z</updated>
+    <updated>2022-05-09T20:00:24.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -10,6 +10,48 @@
     <logo>https://jiashuo-guo.github.io/images/avatar.png</logo>
     <icon>https://jiashuo-guo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, su2流体计算</rights>
+    <entry>
+        <title type="html"><![CDATA[SU2的安装]]></title>
+        <id>https://jiashuo-guo.github.io/post/su2-de-an-zhuang/</id>
+        <link href="https://jiashuo-guo.github.io/post/su2-de-an-zhuang/">
+        </link>
+        <updated>2022-05-09T07:54:05.000Z</updated>
+        <content type="html"><![CDATA[<p>SU2的安装和使用（MacOS版本） :</p>
+<ol>
+<li>
+<p>输入链接 : https://su2code.github.io</p>
+</li>
+<li>
+<p>点击下载<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126235890.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>点击 “SU2 v7.3.0 for macOS”<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126272665.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>解压 “SU2-v7.3.0-macos64.zip”, 找到 “bin”<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126276319.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>打开终端<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126280542.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>使用 &quot;pwd &quot;命令搜索你所在的位置；使用 &quot;ls &quot;命令搜索你可以去的地方；使用 &quot;cd &quot;命令进入目录（如果你犯了错误，使用 &quot;cd /&quot;返回）。</p>
+</li>
+<li>
+<p>进入你刚刚解压的 &quot;bin &quot;目录，然后将文件A和B（按顺序）拖入终端窗口，然后输入开始模拟（例如这里我们运行的是名为 &quot;balle.cfg &quot;的文件）。<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126299599.png" alt="" loading="lazy"><br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126306022.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>仿真结束后，SU2会生成 &quot;flow.vtu&quot;、&quot;surface_flow.vtu &quot;和 &quot;history.csv &quot;文件，让你在Paraview软件中可视化结果。<br>
+<img src="https://jiashuo-guo.github.io/post-images/1652126311645.png" alt="" loading="lazy"></p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GMSH-构建网格]]></title>
         <id>https://jiashuo-guo.github.io/post/gmsh/</id>
