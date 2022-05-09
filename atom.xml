@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体模拟</title>
-    <updated>2022-05-09T20:05:30.614Z</updated>
+    <updated>2022-05-09T20:12:59.495Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://jiashuo-guo.github.io/images/avatar.png</logo>
     <icon>https://jiashuo-guo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, su2流体模拟</rights>
+    <entry>
+        <title type="html"><![CDATA[常见问题]]></title>
+        <id>https://jiashuo-guo.github.io/post/chang-jian-wen-ti/</id>
+        <link href="https://jiashuo-guo.github.io/post/chang-jian-wen-ti/">
+        </link>
+        <updated>2022-05-09T08:11:27.000Z</updated>
+        <content type="html"><![CDATA[<p>一般操作<br>
+安装SU2<br>
+使用GMSH<br>
+创建配置文件<br>
+计算过程中的错误<br>
+用Paraview进行可视化</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用su2进行流体模拟]]></title>
+        <id>https://jiashuo-guo.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/</id>
+        <link href="https://jiashuo-guo.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/">
+        </link>
+        <updated>2022-05-09T08:09:16.000Z</updated>
+        <content type="html"><![CDATA[<p>本网站的目的是什么？<br>
+通过这个网站，我们的目标是提出一个用于空间应用流动模拟的计算链。你会发现一个典型案例的面板，以及帮助你安装和使用SU2的文档（进入安装标签）。</p>
+<p>项目目标<br>
+我们项目的目标是实现一个由网格器、流体流动模拟软件和数据可视化软件组成的文件化计算链。我们的项目旨在获得关于流体流动模拟的知识，并通过为学生编写指南使其永久化。</p>
+<p>为什么是SU2？<br>
+其目的是实现研究中使用的CFD（计算流体力学）工具，如SU2，它是开源软件，与目前使用的ANSYS Fluent（有学生许可证）不同。与Fluent相比，这种开源软件有几个优点：代码容易获取，可以根据需要进行修改，软件不受许可证限制，可以在很多平台上执行。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[su2-配置文件]]></title>
         <id>https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/</id>
