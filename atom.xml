@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体计算</title>
-    <updated>2022-05-09T20:04:27.543Z</updated>
+    <updated>2022-05-09T20:05:07.787Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -11,11 +11,11 @@
     <icon>https://jiashuo-guo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, su2流体计算</rights>
     <entry>
-        <title type="html"><![CDATA[su2配置文件]]></title>
+        <title type="html"><![CDATA[su2-配置文件]]></title>
         <id>https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/</id>
         <link href="https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/">
         </link>
-        <updated>2022-05-09T08:00:33.000Z</updated>
+        <updated>2022-05-09T02:00:33.000Z</updated>
         <content type="html"><![CDATA[<p>配置文件包含了模拟的最重要的参数。编写配置文件的质量对结果有至关重要的影响。</p>
 <p>SU2官方网站提供了配置表的模板：https://github.com/su2code/SU2/blob/master/config_template.cfg</p>
 <p>需要注意的重要参数 :</p>
@@ -276,11 +276,11 @@ SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SU2的安装]]></title>
+        <title type="html"><![CDATA[su2-安装]]></title>
         <id>https://jiashuo-guo.github.io/post/su2-de-an-zhuang/</id>
         <link href="https://jiashuo-guo.github.io/post/su2-de-an-zhuang/">
         </link>
-        <updated>2022-05-09T07:54:05.000Z</updated>
+        <updated>2022-05-09T01:54:05.000Z</updated>
         <content type="html"><![CDATA[<p>SU2的安装和使用（MacOS版本） :</p>
 <ol>
 <li>
