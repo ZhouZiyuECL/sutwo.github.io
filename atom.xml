@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体模拟</title>
-    <updated>2022-05-09T20:12:59.495Z</updated>
+    <updated>2022-05-09T20:18:20.466Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -12,10 +12,10 @@
     <rights>All rights reserved 2022, su2流体模拟</rights>
     <entry>
         <title type="html"><![CDATA[常见问题]]></title>
-        <id>https://jiashuo-guo.github.io/post/chang-jian-wen-ti/</id>
-        <link href="https://jiashuo-guo.github.io/post/chang-jian-wen-ti/">
+        <id>https://jiashuo-guo.github.io/post/chang-jian-wen-ti-a/</id>
+        <link href="https://jiashuo-guo.github.io/post/chang-jian-wen-ti-a/">
         </link>
-        <updated>2022-05-09T08:11:27.000Z</updated>
+        <updated>2022-05-09T08:17:28.000Z</updated>
         <content type="html"><![CDATA[<p>一般操作<br>
 安装SU2<br>
 使用GMSH<br>
