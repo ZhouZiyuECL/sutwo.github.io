@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
-    <title>su2流体计算</title>
-    <updated>2022-05-09T20:05:07.787Z</updated>
+    <title>su2流体模拟</title>
+    <updated>2022-05-09T20:05:30.614Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
     <subtitle>基于SU2进行流体模拟计算的教程网站</subtitle>
     <logo>https://jiashuo-guo.github.io/images/avatar.png</logo>
     <icon>https://jiashuo-guo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, su2流体计算</rights>
+    <rights>All rights reserved 2022, su2流体模拟</rights>
     <entry>
         <title type="html"><![CDATA[su2-配置文件]]></title>
         <id>https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/</id>
