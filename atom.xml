@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jiashuo-guo.github.io</id>
     <title>su2流体模拟</title>
-    <updated>2022-05-09T20:18:20.466Z</updated>
+    <updated>2022-05-09T20:19:28.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jiashuo-guo.github.io"/>
     <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
@@ -346,11 +346,11 @@ SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GMSH-构建网格]]></title>
+        <title type="html"><![CDATA[gmsh-构建网格]]></title>
         <id>https://jiashuo-guo.github.io/post/gmsh/</id>
         <link href="https://jiashuo-guo.github.io/post/gmsh/">
         </link>
-        <updated>2022-04-05T18:45:15.000Z</updated>
+        <updated>2022-04-05T12:45:15.000Z</updated>
         <content type="html"><![CDATA[<p>GMSH是一个网格器，本教程包括一般用法、几何体创建和网格创建。<br>
 1.使用 :<br>
 Gmsh是围绕四个模块建立的：几何、网格、求解器和后处理。要生成网格，一般来说使用前两个模块就足够了，其中Geometry用于创建1D-2D或3D的几何图形，Mesh用于创建网格。</p>
