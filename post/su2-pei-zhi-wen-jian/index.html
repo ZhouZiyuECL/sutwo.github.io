@@ -1,22 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jiashuo-guo.github.io</id>
-    <title>su2流体计算</title>
-    <updated>2022-05-09T20:01:52.827Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jiashuo-guo.github.io"/>
-    <link rel="self" href="https://jiashuo-guo.github.io/atom.xml"/>
-    <subtitle>基于SU2进行流体模拟计算的教程网站</subtitle>
-    <logo>https://jiashuo-guo.github.io/images/avatar.png</logo>
-    <icon>https://jiashuo-guo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, su2流体计算</rights>
-    <entry>
-        <title type="html"><![CDATA[su2配置文件]]></title>
-        <id>https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/</id>
-        <link href="https://jiashuo-guo.github.io/post/su2-pei-zhi-wen-jian/">
-        </link>
-        <updated>2022-05-09T14:00:33.000Z</updated>
-        <content type="html"><![CDATA[<p>配置文件包含了模拟的最重要的参数。编写配置文件的质量对结果有至关重要的影响。</p>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>su2配置文件 | su2流体计算</title>
+<meta name="description" content="基于SU2进行流体模拟计算的教程网站">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://jiashuo-guo.github.io/favicon.ico?v=1652126498047">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://jiashuo-guo.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://jiashuo-guo.github.io">
+        <img class="avatar" src="https://jiashuo-guo.github.io/images/avatar.png?v=1652126498047" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://jiashuo-guo.github.io">
+        <h1 class="site-title">su2流体计算</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">su2配置文件</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-05-09</span>
+            
+          </div>
+          <div class="post-content">
+            <p>配置文件包含了模拟的最重要的参数。编写配置文件的质量对结果有至关重要的影响。</p>
 <p>SU2官方网站提供了配置表的模板：https://github.com/su2code/SU2/blob/master/config_template.cfg</p>
 <p>需要注意的重要参数 :</p>
 <ol>
@@ -273,74 +343,58 @@ SURFACE_ADJ_FILENAME= surface_adjoint<br>
 %<br>
 % Screen output<br>
 SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SU2的安装]]></title>
-        <id>https://jiashuo-guo.github.io/post/su2-de-an-zhuang/</id>
-        <link href="https://jiashuo-guo.github.io/post/su2-de-an-zhuang/">
-        </link>
-        <updated>2022-05-09T07:54:05.000Z</updated>
-        <content type="html"><![CDATA[<p>SU2的安装和使用（MacOS版本） :</p>
-<ol>
-<li>
-<p>输入链接 : https://su2code.github.io</p>
-</li>
-<li>
-<p>点击下载<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126235890.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>点击 “SU2 v7.3.0 for macOS”<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126272665.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>解压 “SU2-v7.3.0-macos64.zip”, 找到 “bin”<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126276319.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>打开终端<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126280542.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>使用 &quot;pwd &quot;命令搜索你所在的位置；使用 &quot;ls &quot;命令搜索你可以去的地方；使用 &quot;cd &quot;命令进入目录（如果你犯了错误，使用 &quot;cd /&quot;返回）。</p>
-</li>
-<li>
-<p>进入你刚刚解压的 &quot;bin &quot;目录，然后将文件A和B（按顺序）拖入终端窗口，然后输入开始模拟（例如这里我们运行的是名为 &quot;balle.cfg &quot;的文件）。<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126299599.png" alt="" loading="lazy"><br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126306022.png" alt="" loading="lazy"></p>
-</li>
-<li>
-<p>仿真结束后，SU2会生成 &quot;flow.vtu&quot;、&quot;surface_flow.vtu &quot;和 &quot;history.csv &quot;文件，让你在Paraview软件中可视化结果。<br>
-<img src="https://jiashuo-guo.github.io/post-images/1652126311645.png" alt="" loading="lazy"></p>
-</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GMSH-构建网格]]></title>
-        <id>https://jiashuo-guo.github.io/post/gmsh/</id>
-        <link href="https://jiashuo-guo.github.io/post/gmsh/">
-        </link>
-        <updated>2022-04-06T00:45:15.000Z</updated>
-        <content type="html"><![CDATA[<p>GMSH是一个网格器，本教程包括一般用法、几何体创建和网格创建。<br>
-1.使用 :<br>
-Gmsh是围绕四个模块建立的：几何、网格、求解器和后处理。要生成网格，一般来说使用前两个模块就足够了，其中Geometry用于创建1D-2D或3D的几何图形，Mesh用于创建网格。</p>
-<p>此外，所有的行动都以代码形式写在文件中，所以你也可以操作文件来实现行动或检查以前的行动。<br>
-网格创建完成后，在文件栏中找到 &quot;导出&quot;，将网格以所需形式导出，你需要在文件中添加自己的后缀（如果你使用SU2，你需要将网格设置为.su2格式）。</p>
-<p>然后可以在配置文件中调用该网格，设置相关参数，并使用SU2进行计算。<br>
-2.创建几何图形。<br>
-我们可以在添加栏中添加我们想要设置的元素（例如，圆圈）。</p>
-<p>然后我们可以在网格栏中找到转折点，接着是曲线的定义。在这一步，我们可以调整所取的点的数量，这将部分决定最终网格的精度。</p>
-<p>还有许多其他与构建几何体有关的特殊功能，例如要从二维转换到三维，你可以使用变换中的旋转选项来构建三维几何体。<br>
-变形中的对称性也很有用，因为它简化了工作量，所以记住在你的图形中要注重对称性。</p>
-<p>PS：如果你失去了创建图表的位置或正确的视图角度，记得在主屏幕上双击，然后点击重置视图，就可以恢复到原来的查看状态。<br>
-如果你犯了一个错误，在编辑脚本上方的模块部分，你可以用删除最后一个脚本的命令来删除它。<br>
-3.创建网格 :<br>
-接下来，我们再去添加几何体，找到曲面，用它来定义一个封闭的面，最后用Mesh中的2D选项生成网格。</p>
-<p>要改变网格的形状（局部或全局），你也可以选择使用Mesh-define-recombine将网格从一个曲面重塑为一个矩形。</p>
-<p>一旦你的网格文件完成，你仍然可以通过在主界面上双击并点击 &quot;所有网格选项 &quot;来修改设置，你可以通过元素大小来调整网格的精度。</p>
-<p>对于输出，如上所述，你需要考虑输出格式和添加后缀。</p>
-]]></content>
-    </entry>
-</feed>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://jiashuo-guo.github.io/post/su2-de-an-zhuang/">
+              <h3 class="post-title">
+                下一篇：SU2的安装
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">基于SU2进行流体模拟计算的教程网站</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://jiashuo-guo.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
