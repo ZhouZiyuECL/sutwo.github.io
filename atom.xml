@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://su2simulation.github.io</id>
+    <id>https://su2simul.github.io</id>
     <title>su2流体模拟</title>
-    <updated>2022-05-14T20:50:05.936Z</updated>
+    <updated>2022-05-14T20:52:51.325Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://su2simulation.github.io"/>
-    <link rel="self" href="https://su2simulation.github.io/atom.xml"/>
+    <link rel="alternate" href="https://su2simul.github.io"/>
+    <link rel="self" href="https://su2simul.github.io/atom.xml"/>
     <subtitle>基于SU2进行流体模拟计算的教程网站</subtitle>
-    <logo>https://su2simulation.github.io/images/avatar.png</logo>
-    <icon>https://su2simulation.github.io/favicon.ico</icon>
+    <logo>https://su2simul.github.io/images/avatar.png</logo>
+    <icon>https://su2simul.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, su2流体模拟</rights>
     <entry>
         <title type="html"><![CDATA[常见问题]]></title>
-        <id>https://su2simulation.github.io/post/chang-jian-wen-ti-a/</id>
-        <link href="https://su2simulation.github.io/post/chang-jian-wen-ti-a/">
+        <id>https://su2simul.github.io/post/chang-jian-wen-ti-a/</id>
+        <link href="https://su2simul.github.io/post/chang-jian-wen-ti-a/">
         </link>
         <updated>2022-05-09T08:17:28.000Z</updated>
         <content type="html"><![CDATA[<p>一般操作<br>
@@ -26,8 +26,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[使用su2进行流体模拟]]></title>
-        <id>https://su2simulation.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/</id>
-        <link href="https://su2simulation.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/">
+        <id>https://su2simul.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/</id>
+        <link href="https://su2simul.github.io/post/shi-yong-su2-jin-xing-liu-ti-mo-ni/">
         </link>
         <updated>2022-05-09T08:09:16.000Z</updated>
         <content type="html"><![CDATA[<p>本网站的目的是什么？<br>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[su2-配置文件]]></title>
-        <id>https://su2simulation.github.io/post/su2-pei-zhi-wen-jian/</id>
-        <link href="https://su2simulation.github.io/post/su2-pei-zhi-wen-jian/">
+        <id>https://su2simul.github.io/post/su2-pei-zhi-wen-jian/</id>
+        <link href="https://su2simul.github.io/post/su2-pei-zhi-wen-jian/">
         </link>
         <updated>2022-05-09T02:00:33.000Z</updated>
         <content type="html"><![CDATA[<p>配置文件包含了模拟的最重要的参数。编写配置文件的质量对结果有至关重要的影响。</p>
@@ -305,8 +305,8 @@ SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[su2-安装]]></title>
-        <id>https://su2simulation.github.io/post/su2-de-an-zhuang/</id>
-        <link href="https://su2simulation.github.io/post/su2-de-an-zhuang/">
+        <id>https://su2simul.github.io/post/su2-de-an-zhuang/</id>
+        <link href="https://su2simul.github.io/post/su2-de-an-zhuang/">
         </link>
         <updated>2022-05-09T01:54:05.000Z</updated>
         <content type="html"><![CDATA[<p>SU2的安装和使用（MacOS版本） :</p>
@@ -316,39 +316,39 @@ SCREEN_OUTPUT= (INNER_ITER, WALL_TIME, RMS_DENSITY, RMS_ENERGY, LIFT, DRAG)</p>
 </li>
 <li>
 <p>点击下载<br>
-<img src="https://su2simulation.github.io/post-images/1652126235890.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126235890.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>点击 “SU2 v7.3.0 for macOS”<br>
-<img src="https://su2simulation.github.io/post-images/1652126272665.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126272665.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>解压 “SU2-v7.3.0-macos64.zip”, 找到 “bin”<br>
-<img src="https://su2simulation.github.io/post-images/1652126276319.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126276319.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>打开终端<br>
-<img src="https://su2simulation.github.io/post-images/1652126280542.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126280542.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>使用 &quot;pwd &quot;命令搜索你所在的位置；使用 &quot;ls &quot;命令搜索你可以去的地方；使用 &quot;cd &quot;命令进入目录（如果你犯了错误，使用 &quot;cd /&quot;返回）。</p>
 </li>
 <li>
 <p>进入你刚刚解压的 &quot;bin &quot;目录，然后将文件A和B（按顺序）拖入终端窗口，然后输入开始模拟（例如这里我们运行的是名为 &quot;balle.cfg &quot;的文件）。<br>
-<img src="https://su2simulation.github.io/post-images/1652126299599.png" alt="" loading="lazy"><br>
-<img src="https://su2simulation.github.io/post-images/1652126306022.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126299599.png" alt="" loading="lazy"><br>
+<img src="https://su2simul.github.io/post-images/1652126306022.png" alt="" loading="lazy"></p>
 </li>
 <li>
 <p>仿真结束后，SU2会生成 &quot;flow.vtu&quot;、&quot;surface_flow.vtu &quot;和 &quot;history.csv &quot;文件，让你在Paraview软件中可视化结果。<br>
-<img src="https://su2simulation.github.io/post-images/1652126311645.png" alt="" loading="lazy"></p>
+<img src="https://su2simul.github.io/post-images/1652126311645.png" alt="" loading="lazy"></p>
 </li>
 </ol>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[gmsh-构建网格]]></title>
-        <id>https://su2simulation.github.io/post/gmsh/</id>
-        <link href="https://su2simulation.github.io/post/gmsh/">
+        <id>https://su2simul.github.io/post/gmsh/</id>
+        <link href="https://su2simul.github.io/post/gmsh/">
         </link>
         <updated>2022-04-05T12:45:15.000Z</updated>
         <content type="html"><![CDATA[<p>GMSH是一个网格器，本教程包括一般用法、几何体创建和网格创建。<br>
